@@ -44,5 +44,5 @@ app.put('/update/:value', (req, res) => {
 
 
 app.listen(8000,() => {
-    console.log(`connected and port no ${process.env.PORT}.`);
+    console.log(`connected and port no ${8000}.`);
 });
